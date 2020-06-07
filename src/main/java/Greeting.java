@@ -9,5 +9,8 @@ public class Greeting {
             return "Witaj, " + name;
         }
     }
+    public String hello(){
+        return "Witaj, przyjacielu";
+    }
 
 }

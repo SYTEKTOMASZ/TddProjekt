@@ -24,5 +24,10 @@ public class GreetingTest {
     public void helloEmptyNameTest(){
     assertEquals("Witaj, przyjacielu", greeting.hello("") );
 }
+@Test
+    @DisplayName("Test obsługi wyjatku null")
+    public void NullNameTest(){
+        assertEquals("Witaj, przyjacielu", greeting.hello());
+}
 
 }
