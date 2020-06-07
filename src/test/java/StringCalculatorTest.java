@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StringCalculatorTest {
     private StringCalculator stringCalculator = new StringCalculator();
 
-    @BeforeEach
-    public void beforeEach() throws Exception {
-        stringCalculator = new StringCalculator();
-    }
+        @BeforeEach
+        public void beforeEach() throws Exception {
+            stringCalculator = new StringCalculator();
+        }
 
     @Test
     @DisplayName("Test dodawania")

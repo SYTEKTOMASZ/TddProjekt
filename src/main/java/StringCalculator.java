@@ -32,13 +32,13 @@ import java.util.List;
 
             for (String s : strings) {
                 int parsedNumber = Integer.parseInt(s);
-                if (parsedNumber <= 1000) {
+
 
                     if (parsedNumber < 0) {
                         negativeNumbers.add(parsedNumber);
                         // throw new Exception("liczby ujemne są niedopuszczalne: " + parsedNumber);
                     }
-
+                if (parsedNumber <= 1000) {
                     result += parsedNumber;
                 }
             }
