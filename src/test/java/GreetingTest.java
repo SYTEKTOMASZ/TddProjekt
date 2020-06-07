@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.NullAndEmptySource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -17,17 +19,14 @@ public class GreetingTest {
 @DisplayName("Test powitania")
     public void helloTest(){
     assertEquals("Witaj, Jan", greeting.hello("Jan") );
+    assertEquals("Witaj, Marek", greeting.hello("Marek"));
 }
 
-@Test
-    @DisplayName("Test obsługi pustego imienia")
-    public void helloEmptyNameTest(){
-    assertEquals("Witaj, przyjacielu", greeting.hello("") );
-}
-@Test
-    @DisplayName("Test obsługi wyjatku null")
-    public void NullNameTest(){
-        assertEquals("Witaj, przyjacielu", greeting.hello());
-}
+    @ParameterizedTest
+    @NullAndEmptySource
+    public void helloNullOrEmptyTest(String name) {
+        assertEquals("Witaj, przyjacielu", greeting.hello(name));
+    }
+
 
 }

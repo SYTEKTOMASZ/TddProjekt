@@ -1,16 +1,11 @@
 public class Greeting {
 
     public String hello(String name){
-        if(name.equals(""))
+        if(name == null ||name.equals(""))
         {
-            return "Witaj, przyjacielu";
+            name = "przyjacielu";
         }
-        else {
-            return "Witaj, " + name;
-        }
-    }
-    public String hello(){
-        return "Witaj, przyjacielu";
+        return String.format("Witaj, %s", name);
     }
 
 }

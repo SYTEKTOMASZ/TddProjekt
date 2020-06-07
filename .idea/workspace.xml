@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b2698a15-8861-4f3f-9382-8f3c21e5c849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Greeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GreetingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreetingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Greeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Greeting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GreetingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GreetingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,26 +134,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1591517299221" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591533214549">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591534388297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591533214549" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591533214549">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591534388297" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591534388297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591533214549" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591533214549">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591534388297" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591534388297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591533214549" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591533214549">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591534388297" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591534388297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591533214549" />
-    <state x="490" y="176" key="Maven.ArtifactSearchDialog" timestamp="1591524005747">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591534388297" />
+    <state x="490" y="176" key="Maven.ArtifactSearchDialog" timestamp="1591533776339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="176" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591524005747" />
+    <state x="490" y="176" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591533776339" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1591522826841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
