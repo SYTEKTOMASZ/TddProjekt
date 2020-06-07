@@ -7,14 +7,23 @@ public class StringCalculator   {
         }
 
         int result = 0;
-        String separator;
-        if(numbers.contains("//")){
-            int x = numbers.indexOf("/");
-            separator = numbers.charAt(x+2);
 
+        String customSeparator = null;
+        if (numbers.startsWith("//")) {
+            String[] split = numbers.split("\n", 2);
 
+            customSeparator = split[0].substring(2);
+            numbers = split[1];
         }
-        String[] strings = numbers.split("[,|\n|%s  ]",separator);
+
+        String separator;
+        if (customSeparator == null) {
+            separator = "[,|\n]";
+        } else {
+            separator = "[,|\n|" + customSeparator + "]";
+        }
+
+        String[] strings = numbers.split(separator);
 
         for (String s : strings) {
             result += Integer.parseInt(s);

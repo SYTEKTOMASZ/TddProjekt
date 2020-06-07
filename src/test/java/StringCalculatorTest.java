@@ -33,11 +33,11 @@ public class StringCalculatorTest {
         assertEquals(6,stringCalculator.add("1\n2,3"));
         }
 
-        @Test
-        @DisplayName("Test dodatkowego separatora")
-    public void optionalSeparatorTest(){
-        assertEquals(6, stringCalculator.add("//;\n,2;2\n2"));
-        }
+    @Test
+    @DisplayName("Test generowanego separatora")
+    public void customLineDelimeterTest() {
+        assertEquals(6, stringCalculator.add("//;\n1;2;3"));
+    }
 
 
 
